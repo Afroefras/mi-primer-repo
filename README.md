@@ -49,12 +49,12 @@ git checkout -b juan_perez
 ```
 
 **3. Escribe tu código:**
-* Ve a la carpeta `src/osos_estudiantes/`.
+* Ve a la carpeta `src/alumnos/`.
 * Crea un archivo Python con tu nombre, ej: `juan_perez.py`.
 * Copia esta estructura y pon tu historia (¡mantenlo apto para todo público!):
 
 ```python
-# src/osos_estudiantes/juan_perez.py
+# src/alumnos/juan_perez.py
 
 def mi_peor_oso():
     nombre = "Juan Pérez"
@@ -78,5 +78,3 @@ git push origin juan_perez
 2. Verás un botón verde que dice **"Compare & pull request"**. ¡Dale clic!
 3. **¡MUY IMPORTANTE!** Asegúrate de que la rama *base* a la que apuntas sea `alumnos` (NO `main`).
 4. Ponle un título a tu PR y dale a "Create pull request".
-
-¡Listo! El profesor revisará tu código, lo unirá a la rama principal y ejecutará un script maestro (usando `pathlib` para rutas dinámicas multiplataforma) que leerá todas nuestras historias al mismo tiempo.
