@@ -32,6 +32,14 @@ pip install -r requirements.txt
 ```
 *💡 Tip pro: Abre el archivo `.gitignore`. Ahí le decimos a Git qué archivos **jamás** debe subir a la nube (como nuestra pesada carpeta `.venv` o datos confidenciales).*
 
+Si quisieras instalar más librerías en el futuro, solo ejecuta `pip install libreria` o incluso `pip install libreria==version` (para instalar una versión específica) y después corres:
+
+```bash
+pip freeze > requirements.txt
+```
+
+Para actualizar el archivo `requirements.txt`.
+
 ---
 
 ## 💻 Fase 2: Tu Misión (Git Flow)
